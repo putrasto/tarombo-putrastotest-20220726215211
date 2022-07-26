@@ -1,0 +1,297 @@
+{
+  "families": [
+    {
+      "childRefs": [
+        {
+          "ref": "I4"
+        },
+        {
+          "ref": "I3"
+        },
+        {
+          "ref": "I5"
+        }
+      ],
+      "husbandRefs": [
+        {
+          "ref": "I1"
+        }
+      ],
+      "id": "F1",
+      "wifeRefs": [
+        {
+          "ref": "I2"
+        }
+      ]
+    }
+  ],
+  "head": {
+    "charset": {
+      "value": "UTF-8"
+    },
+    "date": {
+      "time": "21:52:11",
+      "value": "26 JUL 2022"
+    },
+    "file": "subtree",
+    "gedc": {
+      "form": "LINEAGE-LINKED",
+      "vers": "5.5.1"
+    },
+    "lang": "English",
+    "sour": {
+      "name": "Tarombo",
+      "value": "TAROMBO",
+      "vers": "0.3.0 (988f36f)"
+    }
+  },
+  "people": [
+    {
+      "fams": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "id": "I1",
+      "names": [
+        {
+          "value": "Homer /Simpson/"
+        },
+        {
+          "_type": "birth",
+          "typeTag": "TYPE",
+          "value": "Homer Jay /Simpson/"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "M",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        },
+        {
+          "addr": {
+            "value": "Springfield High School"
+          },
+          "tag": "GRAD",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        },
+        {
+          "addr": {
+            "value": "Nuclear power plant"
+          },
+          "place": "Springfield",
+          "tag": "OCCU",
+          "value": "Safety inspector",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        }
+      ],
+      "media": [
+        {
+          "_file": "Simpsons family.jpg",
+          "fileTag": "FILE",
+          "id": "O1",
+          "titl": "The Simpsons family"
+        },
+        {
+          "_file": "Homer Simpson.jpg",
+          "_prim": "Y",
+          "fileTag": "FILE"
+        }
+      ]
+    },
+    {
+      "fams": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "id": "I2",
+      "names": [
+        {
+          "_type": "married",
+          "typeTag": "TYPE",
+          "value": "Marge /Simpson/"
+        },
+        {
+          "_type": "birth",
+          "typeTag": "TYPE",
+          "value": "Marjorie Jacqueline /Bouvier/"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "F",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        },
+        {
+          "place": "Springfield",
+          "tag": "RESI",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        },
+        {
+          "addr": {
+            "value": "Springfield High School"
+          },
+          "tag": "GRAD",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        },
+        {
+          "tag": "OCCU",
+          "value": "Homemaker",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        }
+      ],
+      "media": [
+        {
+          "_file": "Simpsons family.jpg",
+          "fileTag": "FILE",
+          "id": "O1",
+          "titl": "The Simpsons family"
+        },
+        {
+          "_file": "Marge Simpson.jpg",
+          "_prim": "Y",
+          "fileTag": "FILE"
+        }
+      ]
+    },
+    {
+      "famc": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "fams": [],
+      "id": "I4",
+      "names": [
+        {
+          "givn": "Bartholomew",
+          "value": "Bart /Simpson/"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "M",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        },
+        {
+          "place": "Springfield",
+          "tag": "RESI",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        }
+      ],
+      "media": [
+        {
+          "_file": "Simpsons family.jpg",
+          "fileTag": "FILE",
+          "id": "O1",
+          "titl": "The Simpsons family"
+        },
+        {
+          "_file": "Bart Simpson.jpg",
+          "_prim": "Y",
+          "fileTag": "FILE"
+        }
+      ]
+    },
+    {
+      "famc": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "fams": [],
+      "id": "I3",
+      "names": [
+        {
+          "value": "Lisa /Simpson/"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "_PRIV",
+          "value": ""
+        }
+      ],
+      "media": []
+    },
+    {
+      "famc": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "fams": [],
+      "id": "I5",
+      "names": [
+        {
+          "givn": "Margaret",
+          "value": "Maggie /Simpson/"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "SEX",
+          "value": "F",
+          "sourceCitations": [],
+          "media": [],
+          "mediaRefs": [],
+          "noteRefs": [],
+          "notes": []
+        }
+      ],
+      "media": [
+        {
+          "_file": "Simpsons family.jpg",
+          "fileTag": "FILE",
+          "id": "O1",
+          "titl": "The Simpsons family"
+        },
+        {
+          "_file": "Maggie Simpson.jpg",
+          "_prim": "Y",
+          "fileTag": "FILE"
+        }
+      ]
+    }
+  ]
+}
